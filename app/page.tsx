@@ -142,14 +142,14 @@ export default function Home() {
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl leading-tight mb-8 drop-shadow-md">
             Linen & Rattan <br/> Aesthetics.
           </h1>
-          <a href="#project" className="inline-block border-b border-brand-rattan pb-1 text-sm font-medium tracking-widest uppercase hover:text-brand-rattan transition duration-300">
+          <a href="#project" className="scroll-mt-24 inline-block border-b border-brand-rattan pb-1 text-sm font-medium tracking-widest uppercase hover:text-brand-rattan transition duration-300">
             Discover Our Projects
           </a>
         </div>
       </section>
 
       {/* 3. ABOUT US SECTION */}
-      <section id="about" className="py-32 px-6 md:px-12 max-w-7xl mx-auto">
+      <section id="about" className="scroll-mt py-32 px-6 md:px-12 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-center">
           <div className="relative h-[500px] md:h-[700px] w-full">
             <img 
