@@ -1,26 +1,18 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  /* Identitas Tropis, Rotan, & Linen */
+  --color-brand-bg: #F5F2EB; /* Warna dasar Linen / Krem natural */
+  --color-brand-dark: #3E362E; /* Warna kayu tua / Cokelat gelap untuk teks utama */
+  --color-brand-rattan: #C29B6E; /* Warna aksen Rotan */
+  --color-brand-muted: #8C8276; /* Warna teks sekunder (Abu-abu hangat) */
+  
+  --font-serif: var(--font-playfair), serif;
+  --font-sans: var(--font-inter), sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-dark);
+  scroll-behavior: smooth; /* Efek scroll halus saat klik menu */
 }
