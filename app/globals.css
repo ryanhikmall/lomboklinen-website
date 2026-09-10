@@ -16,3 +16,26 @@ body {
   color: var(--color-brand-dark);
   scroll-behavior: smooth; /* Efek scroll halus saat klik menu */
 }
+
+/* --- CUSTOM PREMIUM SCROLLBAR --- */
+
+/* 1. Mengatur lebar scrollbar menjadi lebih tipis */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* 2. Mengatur jalur (track) background scrollbar */
+::-webkit-scrollbar-track {
+  background: #12100f; /* Warna gelap senada dengan background website */
+}
+
+/* 3. Mengatur pegangan (thumb) scrollbar */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2); /* Warna putih transparan agar elegan */
+  border-radius: 10px; /* Membuat ujungnya membulat mulus */
+}
+
+/* 4. Efek saat kursor diarahkan ke scrollbar (Hover) */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4); /* Menjadi sedikit lebih terang saat disentuh */
+}

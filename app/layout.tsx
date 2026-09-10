@@ -6,7 +6,7 @@ const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfa
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'Lomboklinen | Premium Hotel Linens & Interior Design',
+  title: 'Lomboklinen | Hotel Supplier & Interior Design',
   description: 'Elevating Lombok Hospitality with Premium Linens & Design.',
 }
 

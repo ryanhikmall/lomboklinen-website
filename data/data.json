@@ -2,17 +2,36 @@
   "portfolio": [
     {
       "id": 1,
-      "title": "Elegant Resort Lounge (Minimalist)",
+      "hotel": "Aston Hotel Lombok",
       "location": "Senggigi, Lombok",
-      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop",
-      "price": "Rp 19,500,000"
+      "type": "Resort Interior",
+      "description": "A light-filled lounge and suite curation in warm neutrals, layered linen bedding, and hand-finished rattan detailing.",
+      "images": [
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=800&auto=format&fit=crop"
+      ]
     },
     {
       "id": 2,
-      "title": "Bespoke Resort Suite",
+      "hotel": "Santika Hotel",
       "location": "Kuta, Mandalika",
-      "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1000&auto=format&fit=crop",
-      "price": "Rp 25,000,000"
+      "type": "Boutique Suite",
+      "description": "Serene, minimalist suites that balance breathable linens, teak accents, and soft diffused tropical light.",
+      "images": [
+        "https://images.unsplash.com/photo-1582719502181-bb0b0c6a1c9c?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 3,
+      "hotel": "Gili Wellness Retreat",
+      "location": "Gili Trawangan, Lombok",
+      "type": "Spa Sanctuary",
+      "description": "A tranquil spa sanctuary with natural rattan screens, calming linen upholstery, and an island-inspired palette.",
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=800&auto=format&fit=crop"
+      ]
     }
   ],
   "stats": [
@@ -20,5 +39,49 @@
     { "value": "98%", "label": "Satisfied Clients" },
     { "value": "50+", "label": "Projects Completed" },
     { "value": "50K+", "label": "Linens Supplied" }
-  ]
+  ],
+  "services": [
+    {
+      "id": 1,
+      "number": "01",
+      "title": "Hospitality Linens",
+      "description": "Bespoke bedding and highly durable natural linens, crafted specifically for luxury tropical resorts and boutique villas."
+    },
+    {
+      "id": 2,
+      "number": "02",
+      "title": "Interior Curation",
+      "description": "Sourcing and arranging minimalist furniture with a strong emphasis on rattan, teak wood, and organic textures."
+    },
+    {
+      "id": 3,
+      "number": "03",
+      "title": "Bespoke Furniture",
+      "description": "Tailored rattan and linen pieces designed to suit the unique character and rhythm of each island space."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "quote": "Lomboklinen transformed our resort lounge into a serene, light-filled sanctuary. Our guests consistently remark on how warm and calming the space feels.",
+      "author": "Maya Putri",
+      "role": "General Manager, Senggigi Resort"
+    },
+    {
+      "id": 2,
+      "quote": "The quality of their linens is unmatched. Every delivery arrives impeccable, adding a quiet elegance that elevates the entire guest experience.",
+      "author": "Daniel Prasetyo",
+      "role": "Operations Director, Mandalika Villa"
+    },
+    {
+      "id": 3,
+      "quote": "Working with Lomboklinen feels effortless. Their eye for natural texture and proportion gave our spa a distinct, island-inspired identity.",
+      "author": "Sari Wijaya",
+      "role": "Founder, Gili Wellness Spa"
+    }
+  ],
+  "contact": {
+    "whatsapp": "6281234567890",
+    "email": "hello@lomboklinen.com"
+  }
 }
