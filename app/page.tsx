@@ -226,7 +226,7 @@ export default function Home() {
               <div className="w-full h-[1px] bg-white/10"></div>
               
               <a href="#project" onClick={() => setIsMobileMenuOpen(false)} className="text-[10px] sm:text-xs font-medium tracking-[0.2em] text-white/70 hover:text-white uppercase transition-colors">
-                Selected Works
+                portfolio
               </a>
               <div className="w-full h-[1px] bg-white/10"></div>
               
