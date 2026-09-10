@@ -374,7 +374,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      
+   {/* --- PEMISAH SECTION (GARIS EDITORIAL) --- */}
+      <div className="w-full bg-brand-bg px-6 md:px-12 py-12 md:py-20">
+        <div className="w-full max-w-[1400px] mx-auto border-t-[0.5px] border-brand-dark/15"></div>
+      </div>
 
 
        {/* --- 5. PORTFOLIO / PROJECTS SECTION --- */}
